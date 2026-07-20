@@ -3,8 +3,8 @@ from pathlib import Path
 
 from flask import Flask, flash, jsonify, redirect, render_template, request, session, url_for
 
-from services.data_service import load_dashboard_data
-from services.qa_service import answer_question
+from output.day07_web_student.services.data_service import load_dashboard_data
+from output.day07_web_student.services.qa_service import answer_question
 
 
 BASE_DIR = Path(__file__).resolve().parent
